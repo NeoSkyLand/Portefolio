@@ -1,6 +1,6 @@
 const Parcours = () => {
     return(
-        <main>
+        <main className="">
             <div className="flex justify-center">
                 <h1>Mon Parcours</h1>
             </div>

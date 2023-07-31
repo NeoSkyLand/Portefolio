@@ -15,7 +15,6 @@ import { styles } from "./Style";
 const HeaderMobile = () => {
   return (
     <header className="flex lg:hidden">
-      <h1>Hello Dev</h1>
       <nav>
         <Menu styles={styles}>
           <div className=" flex justify-center items-center">

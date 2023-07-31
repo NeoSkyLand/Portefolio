@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Competence = () => {
     return(
-        <main>
+        <main className="">
 
 <div className="flex justify-center">
     <h1>
