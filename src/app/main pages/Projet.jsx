@@ -12,7 +12,7 @@ const Projet = () => {
             <section className="flex justify-center">
             <article className="grid grid-cols-2">
                 <div>
-                <Image src="/R.jpg" alt="Flash" width={100} height={100}/>
+                <Image src="/R.png" alt="Flash" width={100} height={100}/>
                     <p>Flash Not Dead</p>
                 </div>
                 <div>

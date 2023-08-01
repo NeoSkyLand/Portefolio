@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Contact = () => {
   return (
     <main className="">
@@ -6,16 +8,16 @@ const Contact = () => {
             <section className="grid grid-cols-2">
 
           <div >
-            <input type="text" className="border rounded" />
+            <input type="text" className="border rounded-full" />
           </div>
           <div className="pl-8 pb-3">
-            <input type="text" className="border rounded " />
+            <input type="text" className="border rounded-full " />
           </div>
           <div>
-          <input type="text" className="border rounded" />
+          <input type="text" className="border rounded-full" />
           </div>
           <div className="pl-8">
-            <input type="text" className="border rounded" />
+            <input type="text" className="border rounded-full" />
             </div>
             
             </section>
@@ -23,8 +25,16 @@ const Contact = () => {
             <div className="flex justify-center pt-5">
                 <input type="text" className="border rounded py-24" />
           </div>
-      
-            <button type="button">Envoyer</button>
+      <div className="flex justify-center py-2">
+
+            <button type="button" className="border rounded-full">Envoyer</button>
+      </div>
+      <section>
+        <Link href="/"></Link>
+        <Link href="/"></Link>
+        <Link href="/"></Link>
+        <Link href="/"></Link>
+      </section>
         </form>
     </main>
   );
