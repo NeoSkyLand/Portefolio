@@ -1,22 +1,17 @@
-import Image from 'next/image'
-import HeaderMobile from './layout/HeaderMobile/HeaderMobile'
-import Intro from './main pages/Intro'
-import Projet from './main pages/Projet'
-import Competence from './main pages/Competence'
-import Parcours from './main pages/Parcours'
-import Contact from './main pages/Contact'
-import Footer from './main pages/Footer'
+import Header from "@/app/components/layouts/header";
+import HomePage from "./home";
+import Footer from "@/app/components/layouts/footer";
+import ParticlesBg from "@/app/components/tools/particles";
+import Aos from "./components/tools/aos";
+
 export default function Home() {
   return (
-    <main>
-      <HeaderMobile/>
-      <Intro/>
-      <Projet/>
-      <Competence/>
-      <Parcours/>
-      <Contact/>
-      <Footer/>
-      
-    </main>
-  )
+    <>
+      <Header />
+      <HomePage />
+      <Footer />
+      <ParticlesBg />
+      <Aos />
+    </>
+  );
 }
