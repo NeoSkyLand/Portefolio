@@ -4,6 +4,10 @@ import data from "./data.json";
 const Skills = () => {
   return (
     <section className="">
+      <div className="flex justify-center pt-4">
+
+      <div className="border border-red-500 w-3/4 rounded-2xl">
+
       <div className="flex justify-center">
         <h1>Mes Compétences</h1>
       </div>
@@ -12,10 +16,12 @@ const Skills = () => {
           {data.map((skill) => {
             return (
               <CardSkills title={skill.title} image={skill.image} />
-            )
-          })}
+              )
+            })}
         </div>
       </div>
+            </div>
+            </div>
     </section>
   );
 };

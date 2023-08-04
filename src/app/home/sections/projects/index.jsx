@@ -1,24 +1,30 @@
-import Image from "next/image";
+import CardProjects from "@/app/components/tools/cards/projects";
+import data from "./data.json";
+
 
 const Projects = () => {
   return (
-    <section className="">
-      <div className="flex justify-center">
-        <h1 className="flex justify-center items-center">Mes Projets</h1>
-      </div>
+    <section>
+      <div className="flex justify-center pt-4">
 
-      <section className="flex justify-center">
-        <article className="grid grid-cols-2">
-          <div>
-            <Image src="/R.png" alt="Flash" width={100} height={100} />
-            <p>Flash Not Dead</p>
-          </div>
-          <div>
-            <Image src="/th.jpg" alt="Flash" width={100} height={100} />
-            <p>Agence Web</p>
-          </div>
-        </article>
-      </section>
+<div className="border border-red-500 rounded-xl w-3/4">
+
+      <div className="flex justify-center">
+        <h1 className="flex justify-center items-center pt-4">Mes Projets</h1>
+      </div>
+      <div className="flex justify-center">
+
+<div className="grid grid-cols-2">
+
+      {data.map((project) => {
+        return (
+          <CardProjects title={project.title} image={project.image} />
+          )
+        })}
+        </div>
+        </div>
+        </div>
+      </div>
     </section>
   );
 };
