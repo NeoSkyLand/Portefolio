@@ -9,19 +9,19 @@ const Form = () => {
 
   return (
     <form action="">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center p-2">
         <label htmlFor="">Votre prénom et nom :</label>
         <Input type={"text"} placeholder={"prénom/nom"} />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center p-2">
         <label htmlFor="">Votre adresse email :</label>
         <Input type={"email"} placeholder={"email"} />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center p-2">
         <label htmlFor="">Votre téléphone :</label>
         <Input type={"tel"} placeholder={"téléphone"} />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center p-2">
         <label htmlFor="">Objet du message</label>
         <textarea
           name=""

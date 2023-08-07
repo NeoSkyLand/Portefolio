@@ -3,13 +3,14 @@ const Timeline = () => {
     <section className="">
       <div className="flex justify-center pt-4">
 
-      <div className="border border-red-500 rounded-2xl w-3/4">
+      <div className="border border-red-500 rounded-2xl w-3/4 lg:w-1/2">
 
       <div className="flex justify-center pt-4">
         <h1>Mon Parcours</h1>
       </div>
       
-        
+        <div className="flex justify-center">
+
           <ul className="pt-2 pb-4 px-8">
             <li className="pb-2">
               7 juin 2023 au 23 Fevrier 2024: Formation Devellopeur Web et Web
@@ -42,6 +43,7 @@ const Timeline = () => {
               Informatique(77)
             </li>
           </ul>
+        </div>
         
       </div>
       </div>

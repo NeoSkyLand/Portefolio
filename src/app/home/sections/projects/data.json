@@ -1,18 +1,10 @@
 [
-    {
-      "title": "Flash Not Dead",
-      "image": "/R.jpg"
-    },
-    {
-      "title": "html",
-      "image": "/images.png"
-    },
-    {
-      "title": "js",
-      "image": "/RE.jpg"
-    },
-    {
-      "title": "next",
-      "image": "/next.svg"
-    }
-  ]
+  {
+    "title": "Flash Not Dead",
+    "image": "/FND-White-logo.svg"
+  },
+  {
+    "title": "Deep 404",
+    "image": "/white-logo(1).svg"
+  }
+]

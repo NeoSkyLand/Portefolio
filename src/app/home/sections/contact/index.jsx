@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="">
       <div className="flex justify-center pt-4">
 
-      <div className="border rounded-2xl w-3/4 border-red-500">
+      <div className="border rounded-2xl w-3/4 border-red-500 lg:w-1/2">
 
       <h1 className="flex justify-center pt-4">Contact</h1>
       <p className="flex justify-center pt-2 pb-4 px-6">

@@ -1,18 +1,18 @@
 [
   {
-    "title": "css",
-    "image": "/the.jpg"
+    "title": "CSS",
+    "image": "/CSS.3.svg"
   },
   {
-    "title": "html",
-    "image": "/images.png"
+    "title": "HTML",
+    "image": "/HTML5.svg"
   },
   {
-    "title": "js",
-    "image": "/RE.jpg"
+    "title": "JAVASCRIPT",
+    "image": "/JS.svg"
   },
   {
-    "title": "next",
+    "title": "NEXT",
     "image": "/next.svg"
   }
 ]
