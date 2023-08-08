@@ -12,6 +12,7 @@ import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { slide as Menu } from "react-burger-menu";
 import { styles } from "./styles";
 
+
 const MenuNav = () => {
   return (
     <Menu styles={styles}>

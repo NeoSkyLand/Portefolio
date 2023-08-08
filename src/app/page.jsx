@@ -10,8 +10,8 @@ export default function Home() {
       <Header />
       <HomePage />
       <Footer />
-      <ParticlesBg />
-      <Aos />
+      <ParticlesBg/>
+      
     </>
   );
 }

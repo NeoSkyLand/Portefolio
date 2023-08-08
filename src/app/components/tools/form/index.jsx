@@ -1,6 +1,7 @@
 "use client";
-import Link from "next/link";
 import Input from "../input";
+
+
 
 const Form = () => {
   const SubmitForm = () => {
@@ -9,18 +10,21 @@ const Form = () => {
 
   return (
     <form action="">
-      <div className="flex flex-col items-center p-2">
+      <div className="lg:grid lg:grid-cols-3">
+
+      <div className="flex flex-col items-center p-4">
         <label htmlFor="">Votre prénom et nom :</label>
         <Input type={"text"} placeholder={"prénom/nom"} />
       </div>
-      <div className="flex flex-col items-center p-2">
+      <div className="flex flex-col items-center p-4 ">
         <label htmlFor="">Votre adresse email :</label>
-        <Input type={"email"} placeholder={"email"} />
+        <Input type={"email"} placeholder={"email"}/>
       </div>
-      <div className="flex flex-col items-center p-2">
+      <div className="flex flex-col items-center p-4">
         <label htmlFor="">Votre téléphone :</label>
-        <Input type={"tel"} placeholder={"téléphone"} />
+        <Input type={"tel"} placeholder={"téléphone"}/>
       </div>
+        </div>
       <div className="flex flex-col items-center p-2">
         <label htmlFor="">Objet du message</label>
         <textarea
@@ -28,17 +32,18 @@ const Form = () => {
           id=""
           cols="30"
           rows="10"
-          className="w-56 border border-green-300 rounded-lg"
-        ></textarea>
+          className="w-56 border border-green-300 rounded-lg lg:w-96"
+          ></textarea>
       </div>
       <div className="flex flex-col items-center py-4">
         <button
           className="border border-green-300 rounded-lg p-4"
           onClick={() => SubmitForm()}
-        >
+          >
           Envoyer
         </button>
       </div>
+    
     </form>
   );
 };
