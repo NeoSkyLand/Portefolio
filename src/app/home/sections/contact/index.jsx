@@ -3,15 +3,22 @@ import Link from "next/link";
 import Image from "next/image";
 const Contact = () => {
   return (
-    <section className="">
-      <div className="flex justify-center pt-4 pb-4">
+    <section className=""> 
+    <div className="flex justify-center items-center py-4">
+
+
+      <h1>Contact</h1>
+    </div>
+      <div className="flex justify-center bg-[#2b69e3] py-4">
 
       <div className="contain  border rounded-2xl w-3/4 border-red-500 lg:w-1/2">
+      <div className="flex justify-center items-center py-4 px-3">
 
-      <h1 className="flex justify-center pt-4">Contact</h1>
-      <p className="flex justify-center pt-2 pb-4 px-6">
+      <p>
        Si vous avez besoins de plus d'informations veuillez ecrire dans se formulaire
       </p>
+      </div>
+
       <Form/>
       <div className="flex justify-center">
 

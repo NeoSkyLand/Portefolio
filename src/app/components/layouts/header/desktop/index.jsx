@@ -15,25 +15,9 @@ const HeaderDesktop = () => {
             height={50}
           />
         </div>
-        <div>
-          <ul>
-            <li className="flex flex-row">
-              <AiFillHome />
-              Accueil
-            </li>
-            <li>A propos</li>
-            <li>Parcours</li>
-            <li>Compétences</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </nav>
-      {/* <nav>
-        <div className="flex justify-center items-center">
-          <Image src="/LMP.svg" width={500} height={500} alt="LMP"></Image>
-        </div>
-        <div className="fixed flex items-center pt-52 pl-28">
-          <div className="flex flex-col items-center border border-green-700 ">
+    
+        <div className=" py-28">
+          <div className="flex flex-col items-center ">
             <Link href="/" className="p-3">
               ACCUEIL
             </Link>
@@ -54,7 +38,11 @@ const HeaderDesktop = () => {
             </Link>
           </div>
         </div>
-      </nav> */}
+        <div className="bottom-0">
+              Copyright Lucas Marchand-Poret
+            </div>
+      </nav>
+      
     </header>
   );
 };

@@ -2,7 +2,7 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": ""
+      "value": "#2b69e3"
     },
     "image": "",
     "position": "",
@@ -470,15 +470,15 @@
         "frequency": 4,
         "opacity": 1,
         "color": {
-          "value": "#2bff00"
+          "value": "#04ff00"
         }
       },
       "particles": {
         "enable": true,
-        "frequency": 0.05,
+        "frequency": 5,
         "opacity": 1,
         "color": {
-          "value": "#0055ff"
+          "value": "#002aff"
         }
       }
     },
@@ -547,13 +547,13 @@
     "links": {
       "blink": false,
       "color": {
-        "value": "#00ff04"
+        "value": "random"
       },
       "consent": false,
-      "distance": 200,
+      "distance": 250,
       "enable": true,
       "frequency": 1,
-      "opacity": 1,
+      "opacity": 0.6,
       "shadow": {
         "blur": 5,
         "color": {
@@ -562,10 +562,13 @@
         "enable": false
       },
       "triangles": {
-        "enable": false,
-        "frequency": 1
+        "enable": true,
+        "frequency": 1,
+        "color": {
+          "value": "#a600ff"
+        }
       },
-      "width": 1,
+      "width": 3,
       "warp": false
     },
     "repulse": {

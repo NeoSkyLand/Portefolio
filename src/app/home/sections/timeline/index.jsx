@@ -2,15 +2,15 @@ import ParticlesBg from "@/app/components/tools/particles";
 const Timeline = () => {
   return (
     <section className="">
-      <div className="flex justify-center pt-4">
+      <div className="flex justify-center items-center py-4">
+        <h1>Mon Parcours</h1>
+      </div>
+      <div className="flex justify-center py-4 bg-[#2b69e3]">
 
       < div className="contain border border-red-500 rounded-2xl w-3/4 lg:w-1/2">
       
         
 
-      <div className="flex justify-center py-6">
-        <h1>Mon Parcours</h1>
-      </div>
       
         <div className="flex justify-center">
 
