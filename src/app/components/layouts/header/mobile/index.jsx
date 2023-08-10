@@ -1,6 +1,9 @@
+"use client";
+
 import MenuNav from "./menu";
 import Image from "next/image";
 import DarkMode from "@/app/components/tools/darkMode/darkMode";
+
 const HeaderMobile = () => {
   return (
     <header className="w-full fixed top-0  flex lg:hidden">
@@ -9,11 +12,13 @@ const HeaderMobile = () => {
           <MenuNav />
         </div>
         <div className="flex justify-center">
-          <Image src="/LMP.svg" width={100} height={100} alt="LMP"/>
+          <Image src="/LMP.svg" width={100} height={100} alt="LMP" />
         </div>
         <div className="flex justify-center">
-          <button type="button"> Dark</button>
-          </div>
+          <button type="button" onClick={() => DarkMode()}>
+            Dark
+          </button>
+        </div>
       </nav>
     </header>
   );

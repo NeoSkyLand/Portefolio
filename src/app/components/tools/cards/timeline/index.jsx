@@ -1,9 +1,22 @@
-const CardTimeline = () => {
-    return (
-        <>
-        
-        </>
-    )
-}
+"use client";
+import React from "react";
+import { Chrono } from "react-chrono";
+import data from "@/app/home/sections/timeline/data.json"
 
+const CardTimeline = () => {
+  return (
+    <>
+      <div
+        className="flex justify-center items-center">
+        <Chrono items={data} mode="VERTICAL_ALTERNATING" scrollable slideshow theme={{
+    primary: 'red',
+    secondary: 'yellow',
+    cardBgColor: 'purple',
+    titleColor: 'cyan',
+    titleColorActive: 'red',
+  }}/>
+      </div>
+    </>
+  );
+};
 export default CardTimeline;

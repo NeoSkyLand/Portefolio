@@ -1,3 +1,5 @@
+import Caroussel from "@/app/components/tools/caroussel/caroussel";
+
 const Introduction = () => {
   return (
     <section className="">
@@ -10,14 +12,17 @@ const Introduction = () => {
             DE LUCAS MARCHAND-PORET
           </h1>
         </div>
+        <div className="w-1/3">
+          <Caroussel/>
+        </div>
       </div>
 <div>
 
-      <h1 className="flex justify-center py-4">
+      <h1 className="flex justify-center py-4 text-[#60e2e7]" >
               A propos
             </h1>
 </div>
-      <div className="grid grid-cols-2 bg-[#2b69e3] p-4">
+      <div className="grid grid-cols-2 bg-[#2b69e3] dark:bg-[#1b262c] p-4">
         <div className=" rounded-full justify-center flex pt-6">
           <img
             src="https://img.freepik.com/premium-photo/3d-low-poly-plexus-design-with-bright-colours-generative-ai_881377-3790.jpg"
@@ -29,7 +34,7 @@ const Introduction = () => {
         <div className=" flex justify-center pt-6">
           <div className=" contain border  rounded-xl w-3/4 lg:w-1/2">
             
-            <p className="flex justify-center text-sm px-8 pb-4">
+            <p className="flex justify-center text-sm px-8 pb-4 text-[#df00df]">
               Bonjour je m'appelle Lucas Marchand-Poret j'ai 25ans. Je suis
               Devellopeur web et web mobile en sorti de formation.{" "}
             </p>

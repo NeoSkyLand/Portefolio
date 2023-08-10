@@ -4,13 +4,13 @@ import data from "./data.json";
 const Skills = () => {
   return (
     <section className="">
-          <div className="flex justify-center items-center py-4">
+          <div className="flex justify-center items-center py-4 text-[#60e2e7]">
             <h1>Mes Compétences</h1>
           </div>
-      <div className="flex justify-center py-4 bg-[#2b69e3]">
+      <div className="flex justify-center py-4 bg-[#2b69e3] dark:bg-[#1b262c]">
         <div className="contain border border-red-500 w-3/4 rounded-2xl lg:w-1/2">
           <div className="flex justify-center">
-            <div className="grid grid-cols-2 lg:grid lg:grid-cols-4">
+            <div className="grid grid-cols-2 lg:grid lg:grid-cols-4 text-[#df00df]">
               {data.map((skill) => {
                 return <CardSkills title={skill.title} image={skill.image} />;
               })}

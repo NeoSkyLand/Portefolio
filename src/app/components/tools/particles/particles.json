@@ -4,6 +4,12 @@
     "color": {
       "value": "#2b69e3"
     },
+    "darken": {
+      "color": {
+        "value": "#1b262c"
+      }
+    },
+
     "image": "",
     "position": "",
     "repeat": "",

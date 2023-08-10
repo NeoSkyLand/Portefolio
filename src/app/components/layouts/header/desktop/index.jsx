@@ -38,7 +38,7 @@ const HeaderDesktop = () => {
             </Link>
           </div>
         </div>
-        <div className="bottom-0">
+        <div className="fixed bottom-0">
               Copyright Lucas Marchand-Poret
             </div>
       </nav>
