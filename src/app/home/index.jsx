@@ -4,6 +4,7 @@ import Projects from "./sections/projects";
 import Skills from "./sections/skills";
 import Timeline from "./sections/timeline";
 import Contact from "./sections/contact";
+import ParticlesBg from "@/app/components/tools/particles";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Skills />
       <Timeline />
       <Contact />
+      <ParticlesBg />
     </Main>
   );
 };

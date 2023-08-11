@@ -1,4 +1,8 @@
+"use client";
+
 import Caroussel from "@/app/components/tools/caroussel/caroussel";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { BsFillArrowDownSquareFill } from "react-icons/bs";
 
 const Introduction = () => {
   return (
@@ -6,41 +10,48 @@ const Introduction = () => {
       <div className="w-full h-screen bg-[url('https://images7.alphacoders.com/654/654644.jpg')] bg-no-repeat bg-cover ">
         <div>
           <h1 className=" text-fuchsia-300 flex justify-center items-center pt-80 pl-10 lg:pl-20 text-4xl">
-            BIENVENUE SUR LE PORTEFOLIO
+            BIENVENUE SUR LE PORTFOLIO
           </h1>
           <h1 className=" text-fuchsia-300 flex justify-center items-center pt-20 pl-10 lg:pl-20 text-4xl">
             DE LUCAS MARCHAND-PORET
           </h1>
         </div>
-        <div className="w-1/3">
-          <Caroussel/>
+        <div className="w-full flex justify-center">
+          <Caroussel />
+        </div>
+        <div>
+          <AnchorLink offset={() => 100} href="#about">
+            <BsFillArrowDownSquareFill />
+          </AnchorLink>
         </div>
       </div>
-<div>
-
-      <h1 className="flex justify-center py-4 text-[#60e2e7]" >
+      <div
+        id="about"
+        className="mt-8 mx-4 p-4 flex flex-col items-center "
+      >
+        <div className="contain lg:py-6 lg:w-1/2">
+          <div>
+            <h1 className="flex justify-center py-4 text-[#a6eff1]">
               A propos
             </h1>
-</div>
-      <div className="grid grid-cols-2 bg-[#2b69e3] dark:bg-[#1b262c] p-4">
-        <div className=" rounded-full justify-center flex pt-6">
-          <img
-            src="https://img.freepik.com/premium-photo/3d-low-poly-plexus-design-with-bright-colours-generative-ai_881377-3790.jpg"
-            alt="Photo"
-            width={100}
-            height={100}
+          </div>
+          <div className="rounded-full justify-center flex py-4">
+            <img
+              src="/js.svg"
+              alt=""
+              className="rounded-full"
+              width={75}
+              height={75}
             />
-            </div>
-        <div className=" flex justify-center pt-6">
-          <div className=" contain border  rounded-xl w-3/4 lg:w-1/2">
-            
-            <p className="flex justify-center text-sm px-8 pb-4 text-[#df00df]">
+          </div>
+          <div className="flex justify-center py-4 px-4 ">
+            <p className="flex justify-center text-sm lg:px-8">
               Bonjour je m'appelle Lucas Marchand-Poret j'ai 25ans. Je suis
               Devellopeur web et web mobile en sorti de formation.{" "}
             </p>
-        </div>
           </div>
         </div>
+      </div>
     </section>
   );
 };

@@ -1,17 +1,16 @@
 import Header from "@/app/components/layouts/header";
 import HomePage from "./home";
 import Footer from "@/app/components/layouts/footer";
-import ParticlesBg from "@/app/components/tools/particles";
-import Aos from "./components/tools/aos";
+import ParticlesProvider from "./components/context/particlesProvider";
+import ReturnToTop from "./components/tools/returnToTop";
 
 export default function Home() {
   return (
-    <>
+    <ParticlesProvider>
       <Header />
       <HomePage />
       <Footer />
-      <ParticlesBg/>
-      
-    </>
+      <ReturnToTop />
+    </ParticlesProvider>
   );
 }

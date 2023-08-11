@@ -1,9 +1,7 @@
 const FooterMobile = () => {
   return (
-    <footer className="flex lg:hidden bg-gray-400">
-      <div className="flex justify-center">
-        <h1>Copyrigth by Lucas Marchand-Poret</h1>
-      </div>
+    <footer className="flex justify-center p-4 bg-gray-400 lg:hidden">
+      <h1>Copyrigth by Lucas Marchand-Poret</h1>
     </footer>
   );
 };

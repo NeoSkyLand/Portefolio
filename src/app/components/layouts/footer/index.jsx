@@ -1,10 +1,10 @@
-import FooterDesktop from "./desktop";
+// import FooterDesktop from "./desktop";
 import FooterMobile from "./mobile";
 
 const Footer = () => {
   return (
     <>
-      <FooterDesktop />
+      {/* <FooterDesktop /> */}
       <FooterMobile />
     </>
   );
