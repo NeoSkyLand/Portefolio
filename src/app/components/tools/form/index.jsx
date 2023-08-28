@@ -10,7 +10,7 @@ const Form = () => {
 
   return (
     <form action="">
-      <div className="lg:grid lg:grid-cols-3">
+      <div className="lg:grid xl:grid-cols-3">
 
       <div className="flex flex-col items-center p-4">
         <label htmlFor="">Votre prénom et nom :</label>

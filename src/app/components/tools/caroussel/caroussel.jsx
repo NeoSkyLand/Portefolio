@@ -8,15 +8,10 @@ const Caroussel = () => {
     <section>
       <Carousel>
         <div>
-          <Image src="/next.svg" width={100} height={100} alt="NExt" />
+          <Image src="/white-logo(1).svg" width={100} height={100} alt="Deep404" />
         </div>
         <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
-        </div>
-        <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
+          <img src="/FND-white-logo.svg" width="sm" height="sm" alt="Flash Not Dead"/>
         </div>
       </Carousel>
     </section>

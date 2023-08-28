@@ -9,10 +9,10 @@ const Introduction = () => {
     <section className="">
       <div className="w-full h-screen bg-[url('https://images7.alphacoders.com/654/654644.jpg')] bg-no-repeat bg-cover ">
         <div>
-          <h1 className=" text-fuchsia-300 flex justify-center items-center pt-80 pl-10 lg:pl-20 text-4xl">
+          <h1 className=" text-[#ebc5f5] flex justify-center items-center pt-80 pl-10 lg:pl-20 text-4xl">
             BIENVENUE SUR LE PORTFOLIO
           </h1>
-          <h1 className=" text-fuchsia-300 flex justify-center items-center pt-20 pl-10 lg:pl-20 text-4xl">
+          <h1 className=" text-[#ebc5f5] flex justify-center items-center pt-20 pl-10 lg:pl-20 text-4xl">
             DE LUCAS MARCHAND-PORET
           </h1>
         </div>
@@ -31,7 +31,7 @@ const Introduction = () => {
       >
         <div className="contain lg:py-6 lg:w-1/2">
           <div>
-            <h1 className="flex justify-center py-4 text-[#a6eff1]">
+            <h1 className="flex justify-center py-4 text-[#07061b]  dark:text-[#5ce1e6] font-tiltprismRegular">
               A propos
             </h1>
           </div>
@@ -45,7 +45,7 @@ const Introduction = () => {
             />
           </div>
           <div className="flex justify-center py-4 px-4 ">
-            <p className="flex justify-center text-sm lg:px-8">
+            <p className="flex justify-center text-sm lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5]">
               Bonjour je m'appelle Lucas Marchand-Poret j'ai 25ans. Je suis
               Devellopeur web et web mobile en sorti de formation.{" "}
             </p>

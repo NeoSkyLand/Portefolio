@@ -27,6 +27,9 @@
 }
  @font-face {
   font-family:"TiltPrism-regular" ;
-  src: url("../fonts/Tilt_Prism/static/TiltPrism-Regular.ttf") format("truetype"); 
+  src: url("../fonts/Tilt_Prism/static/TiltPrism-Regular.ttf") format("truetype");
  }
- 
+ @font-face {
+  font-family: "Handjet-regular";
+  src: url("../fonts/Handjet/static/Handjet-Regular.ttf") format("truetype");
+ }

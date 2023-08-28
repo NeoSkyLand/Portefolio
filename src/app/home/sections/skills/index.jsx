@@ -3,14 +3,18 @@ import data from "./data.json";
 
 const Skills = () => {
   return (
-    <section id="skills" className="contain mx-4 p-4 mt-8">
-      <div className="flex justify-center items-center py-4 text-[#a6eff1]">
+    <section id="skills">
+      <div className="flex justify-center">
+
+      <div className="contain mx-4 p-4 mt-8 lg:w-1/2">
+
+      <div className="flex justify-center items-center py-4 text-[#07061b] dark:text-[#5ce1e6] dark:text[] font-tiltprismRegular">
         <h1>Mes Compétences</h1>
       </div>
       <div className="flex justify-center py-4">
         <div className="">
           <div className="flex justify-center">
-            <div className="grid grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5]">
               {data.map((skill) => {
                 return <CardSkills title={skill.title} image={skill.image} />;
               })}
@@ -18,6 +22,8 @@ const Skills = () => {
           </div>
         </div>
       </div>
+              </div>
+              </div>
     </section>
   );
 };

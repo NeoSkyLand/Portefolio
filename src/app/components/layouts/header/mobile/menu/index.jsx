@@ -34,7 +34,7 @@ const MenuNav = () => {
           />
           <div className="flex flex-col items-center pt-4">
             <h1>Lucas Marchand-Poret</h1>
-            <h2>mail</h2>
+            <h2>lucasporet.reel@gmail.com</h2>
           </div>
         </div>
         <ul>
@@ -101,14 +101,11 @@ const MenuNav = () => {
           </li>
         </ul>
         <div className="w-full grid grid-cols-3">
-          <div className="flex justify-center items-center">icon</div>
-          <div className="flex justify-center items-center">icon</div>
-          <div className="flex justify-center items-center">icon</div>
-          <div className="flex justify-center col-span-3">
-            <p>Copyright</p>
+          <div className="flex justify-center col-span-3 bottom-0 fixed px-2">
+            <p>Copyright by Lucas Marchand-Poret</p>
+            </div>
           </div>
         </div>
-      </div>
     </Menu>
   );
 };

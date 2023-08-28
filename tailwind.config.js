@@ -14,6 +14,7 @@ module.exports = {
         },
         fontFamily: {
           tiltprismRegular: ["TiltPrism-regular", "cursive"],
+          handjetRegular: ["Handjet-regular", "cursive"],
         },
     },
   },
