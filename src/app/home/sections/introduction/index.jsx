@@ -29,9 +29,9 @@ const Introduction = () => {
         id="about"
         className="mt-8 mx-4 p-4 flex flex-col items-center "
       >
-        <div className="contain lg:py-6 lg:w-1/2">
+        <div className="contain lg:py-6 lg:w-1/2 w-3/4">
           <div>
-            <h1 className="flex justify-center py-4 text-[#07061b]  dark:text-[#5ce1e6] font-tiltprismRegular">
+            <h1 className="flex justify-center py-4 text-[#07061b]  dark:text-[#5ce1e6] font-tiltprismRegular text-3xl">
               A propos
             </h1>
           </div>
@@ -45,7 +45,7 @@ const Introduction = () => {
             />
           </div>
           <div className="flex justify-center py-4 px-4 ">
-            <p className="flex justify-center text-sm lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5]">
+            <p className="flex justify-center lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
               Bonjour je m'appelle Lucas Marchand-Poret j'ai 25ans. Je suis
               Devellopeur web et web mobile en sorti de formation.{" "}
             </p>

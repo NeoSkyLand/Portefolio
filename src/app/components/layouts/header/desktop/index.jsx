@@ -11,10 +11,13 @@ import { faInbox } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ParticlesContext } from "@/app/components/context/particlesProvider";
+import DarkMode from "@/app/components/tools/darkMode/darkMode";
 const HeaderDesktop = () => {
   const [menu, setMenu] = useState(80);
-  const [showButton, setShowButton] = useState(false);
+  const [showButton, setShowButton] = useState(false);  
+  const { theme, setTheme } = useContext(ParticlesContext);
 
   return (
     <header className="hidden lg:flex ">
@@ -71,7 +74,7 @@ const HeaderDesktop = () => {
           </div>
         ) : (
           <div className=" py-28">
-            <div className="flex flex-col items-center font-tiltprismRegular dark:text-[#d011d8] text-[#111144]">
+            <div className="flex flex-col items-center font-tiltprismRegular dark:text-[#d011d8] text-[#111144] text-xl">
               <Link href="/" className="p-3">
                 ACCUEIL
               </Link>
