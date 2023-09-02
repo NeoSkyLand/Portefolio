@@ -7,6 +7,8 @@ import { BsFillArrowDownSquareFill } from "react-icons/bs";
 const Introduction = () => {
   return (
     <section className="">
+      <section id="home">
+
       <div className="w-full h-screen bg-[url('https://images7.alphacoders.com/654/654644.jpg')] bg-no-repeat bg-cover ">
         <div>
           <h1 className=" text-[#ebc5f5] flex justify-center items-center pt-80 pl-10 lg:pl-20 text-4xl">
@@ -25,6 +27,7 @@ const Introduction = () => {
           </AnchorLink>
         </div>
       </div>
+      </section>
       <div
         id="about"
         className="mt-8 mx-4 p-4 flex flex-col items-center "

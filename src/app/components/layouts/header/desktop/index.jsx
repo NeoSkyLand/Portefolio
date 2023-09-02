@@ -12,6 +12,7 @@ import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
 import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const HeaderDesktop = () => {
   const [menu, setMenu] = useState(80);
   const [showButton, setShowButton] = useState(false);
@@ -50,46 +51,115 @@ const HeaderDesktop = () => {
 
         {menu === 80 ? (
           <div className="flex flex-col items-center py-40 dark:text-[#d011d8] text-[#111144]">
+              <AnchorLink
+              offset={() => 100}
+              href="#home"
+              onClick={() => HideMenu()}
+            >
             <div className="py-4">
               <FontAwesomeIcon icon={faHouse} size="xl" />
             </div>
+
+            </AnchorLink>
+            <AnchorLink
+              offset={() => 100}
+              href="#about"
+              onClick={() => HideMenu()}
+            >
             <div className="pb-4">
               <FontAwesomeIcon icon={faCircleInfo} size="xl" />
             </div>
+            </AnchorLink>
+            <AnchorLink
+              offset={() => 100}
+              href="#projects"
+              onClick={() => HideMenu()}
+            >
             <div className="pb-4">
               <FontAwesomeIcon icon={faLaptop} size="xl" />
             </div>
+            </AnchorLink>
+            <AnchorLink
+              offset={() => 100}
+              href="#skills"
+              onClick={() => HideMenu()}
+            >
             <div className="pb-4">
               <FontAwesomeIcon icon={faClipboard} size="xl" />
             </div>
+            </AnchorLink>
+              <AnchorLink
+              offset={() => 100}
+              href="#timeline"
+              onClick={() => HideMenu()}
+            >
+
             <div className="pb-4">
               <FontAwesomeIcon icon={faInbox} size="xl" />
             </div>
+            </AnchorLink>
+            <AnchorLink
+              offset={() => 100}
+              href="#contact"
+              onClick={() => HideMenu()}
+            >
             <div>
               <FontAwesomeIcon icon={faAddressCard} size="xl" />
             </div>
+            </AnchorLink>
           </div>
         ) : (
           <div className=" py-28">
             <div className="flex flex-col items-center font-tiltprismRegular dark:text-[#d011d8] text-[#111144]">
-              <Link href="/" className="p-3">
+            <AnchorLink
+              offset={() => 100}
+              href="#home"
+              onClick={() => HideMenu()}
+              className="p-3"
+            >
+              
                 ACCUEIL
-              </Link>
-              <Link href="/" className="p-3">
+              </AnchorLink>
+              <AnchorLink
+              offset={() => 100}
+              href="#about"
+              onClick={() => HideMenu()}
+              className="p-3"
+            >
                 A PROPOS
-              </Link>
-              <Link href="/" className="p-3">
+              </AnchorLink>
+              <AnchorLink
+              offset={() => 100}
+              href="#projects"
+              onClick={() => HideMenu()}
+              className="p-3"
+            >
                 PROJETS
-              </Link>
-              <Link href="/" className="p-3">
+              </AnchorLink>
+              <AnchorLink
+              offset={() => 100}
+              href="#skills"
+              onClick={() => HideMenu()}
+              className="p-3"
+            >
                 COMPETENCE
-              </Link>
-              <Link href="/" className="p-3">
-                PARCOURS
-              </Link>
-              <Link href="/" className="p-3">
+              </AnchorLink>
+              
+              <AnchorLink
+              offset={() => 100}
+              href="#timeline"
+              onClick={() => HideMenu()}
+              className="p-3"
+            > PARCOURS
+              </AnchorLink>
+              <AnchorLink
+              offset={() => 100}
+              href="#contact"
+              onClick={() => HideMenu()}
+              className="p-3"
+            >
                 CONTACT
-              </Link>
+              </AnchorLink>
             </div>
             <div className="fixed bottom-0 px-4 py-1 dark:text-[#d011d8] text-[#111144]">
               Copyright
