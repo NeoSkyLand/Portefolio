@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
@@ -11,23 +12,20 @@ import { faInbox } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import { CgToggleSquare, CgToggleSquareOff } from "react-icons/cg";
-import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useState, useContext } from "react";
+import { ParticlesContext } from "@/app/components/context/particlesProvider";
+import DarkMode from "@/app/components/tools/darkMode/darkMode";
 const HeaderDesktop = () => {
   const [menu, setMenu] = useState(80);
-  const [showButton, setShowButton] = useState(false);
+  const [showButton, setShowButton] = useState(false);  
+  const { theme, setTheme } = useContext(ParticlesContext);
 
   return (
     <header className="hidden lg:flex ">
       <nav className="dark:bg-black bg-[#6faaf0] h-screen fixed" style={{ width: menu }}>
-        <div className="flex justify-center py-4">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wld3A9FvGZf3RuSLldDCOmf1Ih6lSkT-Fg&usqp=CAU"
-            alt=""
-            className="rounded-full"
-            width={50}
-            height={50}
-          />
+        <div className="flex justify-center py-4 px-2">
+          <Image src="/Photo.jpg" width={100} height={100} alt="moi" className="rounded-full"/>
         </div>
         <div className="flex items-center justify-center py-2 dark:text-[#d011d8] text-[#111144]">
           {showButton === true ? (
@@ -110,7 +108,7 @@ const HeaderDesktop = () => {
           </div>
         ) : (
           <div className=" py-28">
-            <div className="flex flex-col items-center font-tiltprismRegular dark:text-[#d011d8] text-[#111144]">
+            <div className="flex flex-col items-center font-orbitron dark:text-[#d011d8] text-[#111144]">
             <AnchorLink
               offset={() => 100}
               href="#home"
