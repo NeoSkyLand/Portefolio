@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PropTypes from "prop-types";
 const CardProjects = ({ image, title }) => {
   return (
     <>
@@ -15,5 +16,9 @@ const CardProjects = ({ image, title }) => {
     </>
   );
 };
+  CardProjects.propTypes = {
+    title: PropTypes.string,
+    image: PropTypes.string,
+  };
 
 export default CardProjects;
