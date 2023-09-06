@@ -13,7 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         },
         fontFamily: {
-          tiltprismRegular: ["TiltPrism-regular", "cursive"],
+          orbitron: ["Orbitron", "sans-serif"],
           handjetRegular: ["Handjet-regular", "cursive"],
         },
     },

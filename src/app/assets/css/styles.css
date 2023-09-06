@@ -7,29 +7,40 @@
 .carousel .carousel-status {
   display: none;
 }
+@layer components {
 
-.containD {
-  background: rgba(126, 9, 255, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4.5px);
-  -webkit-backdrop-filter: blur(4.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  .containD {
+    background: rgba( 77, 14, 125, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .contain {
-  background: rgba(0, 247, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  background: rgba( 0, 191, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
- @font-face {
-  font-family:"TiltPrism-regular" ;
-  src: url("../fonts/Tilt_Prism/static/TiltPrism-Regular.ttf") format("truetype");
+
+.contain-card{
+  background: rgba( 0, 222, 255, 1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+}
+@font-face {
+  font-family:"Orbitron" ;
+  src: url("../fonts/Orbitron/static/Orbitron-Bold.ttf") format("truetype");
  }
  @font-face {
   font-family: "Handjet-regular";
-  src: url("../fonts/Handjet/static/Handjet-Regular.ttf") format("truetype");
+  src: url("../fonts/Handjet/static/Handjet-SemiBold.ttf") format("truetype");
  }
