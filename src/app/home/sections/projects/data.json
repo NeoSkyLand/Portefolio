@@ -1,15 +1,18 @@
 [
   {
+    "id": 1,
     "title": "Flash Not Dead",
     "image": "/FND-White-logo.svg",
     "link": "/"
   },
   {
+    "id": 2,
     "title": "Deep 404",
     "image": "/white-logo(1).svg",
     "link":"/"
   },
   {
+    "id": 3,
     "title": "CV",
     "image":"/CV.svg",
     "link":"../CV"
