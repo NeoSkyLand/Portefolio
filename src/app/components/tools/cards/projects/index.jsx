@@ -4,8 +4,11 @@ import Link from "next/link";
 const CardProjects = ({ image, title, link}) => {
   return (
     <>
-        {/* <Link href={link}> */}
-      <div className="p-8">
+      <div className="p-8" href={link} target="_blank"
+            rel="noreferrer noopener">
+        
+       
+        
         <Image
           src={image}
           width={100}
@@ -14,8 +17,10 @@ const CardProjects = ({ image, title, link}) => {
           className="flex justify-center"
           />
         <h1 className="flex justify-center">{title}</h1>
+        
+          
+          
       </div>
-          {/* </Link> */}
     </>
   );
 };

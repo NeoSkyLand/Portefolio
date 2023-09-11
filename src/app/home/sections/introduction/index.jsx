@@ -19,11 +19,8 @@ const Introduction = () => {
             DE LUCAS MARCHAND-PORET
           </h1>
         </div>
-        <div className="w-full flex justify-center">
-          <Caroussel />
-        </div>
-        <div>
-          <AnchorLink offset={() => 100} href="#about">
+        <div className=" text-gray-300 flex justify-center xl:py-48">
+          <AnchorLink offset={() => 100} href="#about" >
             <BsFillArrowDownSquareFill />
           </AnchorLink>
         </div>

@@ -30,22 +30,22 @@ const Contact = () => {
       <div className="contain-card dark:containD mt-8 p-4 mx-4 mb-20 lg:w-1/2 w-3/4">
         <div className="flex justify-center text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
           <div className="grid grid-cols-2 lg:flex lg:justify-center font-handjetRegular">
-            <Link href="/" className="p-8">
+            <a href="/" className="p-8">
               <Image src="/Phone.svg" width={50} height={50} alt="Reseaux" />{" "}
               Tel
-            </Link>
-            <Link href="/" className="p-8">
+            </a >
+            <a href="/" className="p-8">
               <Image src="/Email.svg" width={50} height={50} alt="Reseaux" />
               Email
-            </Link>
-            <Link href="/" className="p-8">
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-poret-70525a280/" className="p-8">
               <Image src="/Linkedin.svg" width={50} height={50} alt="Reseaux" />
               Linkedin
-            </Link>
-            <Link href="/" className="p-8">
+            </a>
+            <a href="https://github.com/NeoSkyLand" className="p-8">
               <Image src="/GitHub.svg" width={50} height={50} alt="Reseaux" />
               GitHub
-            </Link>
+            </a>
           </div>
         </div>
       </div>
