@@ -32,11 +32,11 @@ const Contact = () => {
           <div className="grid grid-cols-2 lg:flex lg:justify-center font-handjetRegular">
             <Link href="/" className="p-8">
               <Image src="/Phone.svg" width={50} height={50} alt="Reseaux" />{" "}
-              Tel
+              06.59.36.27.49
             </Link>
-            <Link href="/" className="p-8">
+            <Link href="contact.marchand.poret@gmail.com" className="p-8">
               <Image src="/Email.svg" width={50} height={50} alt="Reseaux" />
-              Email
+              contact.marchand.poret@gmail.com
             </Link>
             <Link href="/" className="p-8">
               <Image src="/Linkedin.svg" width={50} height={50} alt="Reseaux" />
