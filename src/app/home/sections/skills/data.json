@@ -1,18 +1,18 @@
 [
   {
-    "title": "CSS",
+    "id": 1,
     "image": "/CSS.3.svg"
   },
   {
-    "title": "HTML",
+    "id": 2,
     "image": "/HTML5.svg"
   },
   {
-    "title": "JAVASCRIPT",
+    "id": 3,
     "image": "/JS.svg"
   },
   {
-    "title": "NEXT",
+    "id": 4,
     "image": "/next.svg"
   }
 ]

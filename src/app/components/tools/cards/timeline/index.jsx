@@ -16,7 +16,7 @@ const CardTimeline = () => {
           theme={{
             primary: "red",
             secondary: "yellow",
-            cardBgColor: "purple",
+            cardBgColor: "white",
             titleColor: "cyan",
             titleColorActive: "red",
           }}

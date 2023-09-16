@@ -16,7 +16,12 @@ const Skills = () => {
           <div className="flex justify-center">
             <div className="grid grid-cols-2 lg:grid-cols-4 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
               {data.map((skill) => {
-                return <CardSkills  image={skill.image} />;
+                return(
+                  <div key={skill.id}>
+
+                  <CardSkills  image={skill.image} />
+                  </div>
+                ) 
               })}
             </div>
           </div>

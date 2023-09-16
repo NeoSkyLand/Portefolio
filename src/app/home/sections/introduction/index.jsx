@@ -19,11 +19,8 @@ const Introduction = () => {
             DE LUCAS MARCHAND-PORET
           </h1>
         </div>
-        <div className="w-full flex justify-center">
-          <Caroussel />
-        </div>
-        <div>
-          <AnchorLink offset={() => 100} href="#about">
+        <div className=" text-gray-300 flex justify-center xl:py-48">
+          <AnchorLink offset={() => 100} href="#about" >
             <BsFillArrowDownSquareFill />
           </AnchorLink>
         </div>
@@ -46,7 +43,7 @@ const Introduction = () => {
           </div>
           <div className="flex justify-center py-4 px-4 ">
             <p className="flex justify-center lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
-              Bonjour je m'appelle Lucas Marchand-Poret j'ai 25ans. Je suis
+              Bonjour je m&apos;appelle Lucas Marchand-Poret j&apos;ai 25ans. Je suis
               Devellopeur web et web mobile en sorti de formation.{" "}
             </p>
           </div>
