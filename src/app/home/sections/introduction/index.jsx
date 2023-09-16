@@ -28,10 +28,10 @@ const Introduction = () => {
       </section>
       <div
         id="about"
-        className="mt-8 mx-4 p-4 flex flex-col items-center "
+        className="mt-8  flex flex-col items-center "
       >
 
-        <div className="contain-card dark:containD  lg:w-1/2 w-3/4">
+        <div className="contain-card dark:containD  lg:w-1/2 w-4/5">
         <div className="" >
           <div>
             <h1 className="flex justify-center py-4 text-[#07061b]  dark:text-[#5ce1e6] font-orbitron text-3xl">

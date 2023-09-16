@@ -24,22 +24,23 @@ const MenuNav = () => {
   return (
     <Menu styles={styles} isOpen={showMenu === true ? false : null}>
       <div className="h-screen flex flex-col  justify-evenly items-center">
-        <div className="flex flex-col justify-center items-center py-10">
+        <div className="flex flex-col justify-center items-center ">
           <img
-            src="/js.svg"
+            src="/Photo.jpg"
             alt=""
             className="rounded-full"
-            width={75}
-            height={75}
+            width={100}
+            height={100}
           />
           <div className="flex flex-col items-center pt-4">
             <h1>Lucas Marchand-Poret</h1>
-            <h2>lucasporet.reel@gmail.com</h2>
+            <h2 className="py-2">lucasporet.reel@gmail.com</h2>
+            <h3>06.59.36.27.49</h3>
           </div>
         </div>
         <ul>
           <li>
-            <a href="http://localhost:3000/" className=" ">
+            <a href="https://marchand-poret.fr" className=" ">
               <FontAwesomeIcon icon={faHouse} className="pr-3" />
               ACCUEIL
             </a>

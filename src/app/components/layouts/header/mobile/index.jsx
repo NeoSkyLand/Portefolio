@@ -19,11 +19,11 @@ const HeaderMobile = () => {
         </div>
         <div className="flex justify-center">
           <Image
-            src="/js.svg"
-            width={50}
-            height={50}
+            src="/LMP.svg"
+            width={100}
+            height={100}
             alt="LMP"
-            className="rounded-full"
+            
           />
         </div>
         <div className="flex items-center justify-center">
