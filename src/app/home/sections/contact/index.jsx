@@ -34,7 +34,7 @@ const Contact = () => {
               <Image src="/Phone.svg" width={50} height={50} alt="Reseaux" />{" "}
               Tel
             </a >
-            <a href="/" className="p-8">
+            <a href="" className="p-8">
               <Image src="/Email.svg" width={50} height={50} alt="Reseaux" />
               Email
             </a>
