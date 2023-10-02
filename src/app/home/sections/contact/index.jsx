@@ -30,11 +30,11 @@ const Contact = () => {
       <div className="contain-card dark:containD mt-8  mb-20 lg:w-1/2 w-4/5">
         <div className="flex justify-center text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
           <div className="grid grid-cols-2 lg:flex lg:justify-center font-handjetRegular">
-            <a href="/" className="p-8">
+            <a href="tel: +33 6 59 36 27 49" className="p-8">
               <Image src="/Phone.svg" width={50} height={50} alt="Reseaux" />{" "}
               Tel
             </a >
-            <a href="" className="p-8">
+            <a href="mailto:contact.marchand.poret@gmail.com" className="p-8">
               <Image src="/Email.svg" width={50} height={50} alt="Reseaux" />
               Email
             </a>
