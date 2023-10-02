@@ -43,8 +43,16 @@ const Introduction = () => {
           </div>
           <div className="flex justify-center py-4 px-4 ">
             <p className="flex justify-center lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
-              Bonjour je m&apos;appelle Lucas Marchand-Poret j&apos;ai 25ans. Je suis
-              Devellopeur web et web mobile en sorti de formation.{" "}
+              « Dès l&apos;enfance, je me suis pris de passion pour les jeux vidéos ainsi que l&apos;informatique de façon globale. C&apos;est ainsi, une pièce en amenant une autre, que j&apos;ai pu découvrir les différents organes qui composaient un ordinateur. Ce qui m&apos;a rapidement permis par la suite de monter les miens. 
+
+Mes études d&apos;informatique m&apos;ont également permis d&apos;acquérir une solide expérience dans le domaine mais aussi de renforcer les bases déjà existantes.
+
+Féru de langage informatique et HTML j&apos;ai désormais comme ambition d&apos;en faire mon métier et pourquoi pas, par la suite, me lancer dans la création d&apos;IA. »
+
+
+Lucas Marchand-Poret, 25 ans
+Élève d&apos;OnlineFormaPro
+Développeur web et web mobile
             </p>
           </div>
         </div>
