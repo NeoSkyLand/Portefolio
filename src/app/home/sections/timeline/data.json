@@ -1,42 +1,37 @@
 [
   {
     "id": 1,
-    "cardTitle": "7 Juin 2023 au 23 Février 2024",
+    "cardTitle": " Juin 2023 / Février 2024",
     "cardSubtitle": "Formation Devellopeur Web et Web Mobile avec OnlineFormapro sur Meaux (77)"
   },
   {
     "id": 2,
-    "cardTitle": "7 Décembre au 11 Décembre 2020",
+    "cardTitle": " Décembre / Décembre 2020",
     "cardSubtitle": "Formation Digicode à la mission local de Meaux (77)"
   },
   {
     "id": 3,
-    "cardTitle": "Septembre/Octobre 2020",
+    "cardTitle": "Septembre / Octobre 2020",
     "cardSubtitle": "Agent de comptage à BVA sur Meaux (77)"
   },
   {
     "id": 4,
-    "cardTitle": "Février 2020 à Août 2020",
+    "cardTitle": "Février / Août 2020",
     "cardSubtitle": "Employer Polyvalent à Cared77 à Meaux (77)"
   },
   {
     "id": 5,
-    "cardTitle": "16 Mai 2019",
-    "cardSubtitle": "Agent de Comptage à BVA sur St Jean Les Deux Jumeaux (77)"
-  },
-  {
-    "id": 6,
-    "cardTitle": "2016-2017",
+    "cardTitle": "2016 / 2017",
     "cardSubtitle": "Terminal STI2D au Lycée Pierre De Coubertin à Meaux (77)"
   },
   {
-    "id": 7,
+    "id": 6,
     "cardTitle": "Juin 2013",
     "cardSubtitle": "Brevet des Collèges au Collège Camille Saint Saëns à Lizy Sur Ourcq (77)"
   },
   {
-    "id": 8,
+    "id": 7,
     "cardTitle": "Janvier 2013",
-    "cardSubtitle": "Stage Informatique de 2 semaines a Sared77 Informatique (77)"
+    "cardSubtitle": "Stage Informatique de 2 semaines a Sared77 Informatique à Meaux (77)"
   }
 ]
