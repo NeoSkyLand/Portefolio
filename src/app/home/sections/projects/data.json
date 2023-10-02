@@ -1,20 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Flash Not Dead",
-    "image": "/FND-White-logo.svg",
-    "link": "/"
+    "title": "CV",
+    "image":"/CV.svg",
+    "link":"../CV/index.html"
   },
   {
-    "id": 2,
+    "id":2,
+    "title":"Portfolio",
+    "image":"/portfolio-icon.svg",
+    "link":"https://marchand-poret.fr"
+  },
+  {
+    "id": 3,
     "title": "Deep 404",
     "image": "/white-logo(1).svg",
     "link":"https://deep-404.netlify.app/"
   },
   {
-    "id": 3,
-    "title": "CV",
-    "image":"/CV.svg",
-    "link":"../CV"
+    "id": 4,
+    "title": "Flash Not Dead",
+    "image": "/FND-White-logo.svg",
+    "link": "/"
   }
 ]

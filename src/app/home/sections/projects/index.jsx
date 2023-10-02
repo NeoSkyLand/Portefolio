@@ -19,6 +19,7 @@ const Projects = () => {
                         <CardProjects
                           title={project.title}
                           image={project.image}
+                          link={project.link}
                         />
                       </div>
                     );
