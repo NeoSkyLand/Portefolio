@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="">
             <div className="flex justify-center items-center py-4 px-3 text-[#611a8d] dark:text-[#ebc5f5] font-handjetRegular text-2xl">
               <p >
-                Si vous avez besoins de plus d&apos;informations, veuillez renseigner vos coordonnés.
+                Si vous avez besoin de plus d&apos;informations, veuillez renseigner vos coordonnés.
               </p>
             </div>
             <div className="dark:text-[#ebc5f5] text-[#611a8d] font-handjetRegular text-2xl">

@@ -47,7 +47,7 @@ const Introduction = () => {
                 « Dès l&apos;enfance, je me suis pris de passion pour les jeux
                 vidéos ainsi que l&apos;informatique de façon globale.
                 C&apos;est ainsi, une pièce en amenant une autre, que j&apos;ai
-                pu découvrir les différents composant d&apos;un
+                pu découvrir les différents composants d&apos;un
                 ordinateur. Ce qui m&apos;a rapidement permis par la suite de
                 monter les miens. Mes études d&apos;informatique m&apos;ont
                 également permis d&apos;acquérir une solide expérience dans le
