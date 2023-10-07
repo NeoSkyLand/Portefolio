@@ -35,11 +35,11 @@ const Introduction = () => {
             </div>
             <div className="rounded-full justify-center flex py-4">
               <Image
-                src="/Photo.jpg"
+                src="/PhotoMoi-2.jpg"
                 width={100}
                 height={100}
                 alt="moi"
-                className="rounded-full"
+                className="rounded-2xl"
               />
             </div>
             <div className="flex justify-center py-4 px-4 ">
