@@ -26,7 +26,7 @@ const MenuNav = () => {
       <div className="h-screen flex flex-col  justify-evenly items-center">
         <div className="flex flex-col justify-center items-center ">
           <img
-            src="/Photo.jpg"
+            src="/PhotoMoi-2.jpg"
             alt=""
             className="rounded-full"
             width={100}
