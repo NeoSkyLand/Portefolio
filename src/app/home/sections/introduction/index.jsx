@@ -15,7 +15,7 @@ const Introduction = () => {
               BIENVENUE SUR LE PORTFOLIO
             </h1>
             <h1 className=" text-[#ebc5f5] flex justify-center items-center pt-20 pl-10 lg:pl-20 text-4xl">
-              DE LUCAS MARCHAND-PORET!!!!
+              DE LUCAS MARCHAND-PORET
             </h1>
           </div>
           <div className=" text-gray-300 flex justify-center xl:py-48">
