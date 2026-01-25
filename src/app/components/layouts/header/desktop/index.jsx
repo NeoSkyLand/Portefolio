@@ -155,7 +155,7 @@ const HeaderDesktop = () => {
               href="#contact"
               onClick={() => HideMenu()}
               className="p-3"
-            >
+              >
                 CONTACT
               </AnchorLink>
             </div>

@@ -9,18 +9,12 @@
     "id":2,
     "title":"Portfolio",
     "image":"/portfolio-icon.svg",
-    "link":"https://marchand-poret.fr"
+    "link":"https://marchand-poret-lucas-portfolio.netlify.app"
   },
   {
     "id": 3,
     "title": "Deep 404",
     "image": "/white-logo(1).svg",
     "link":"https://deep-404.netlify.app/"
-  },
-  {
-    "id": 4,
-    "title": "Flash Not Dead",
-    "image": "/FND-White-logo.svg",
-    "link": "/"
   }
 ]

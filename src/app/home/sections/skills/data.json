@@ -14,5 +14,22 @@
   {
     "id": 4,
     "image": "/next.svg"
+  },
+  {
+    "id": 5,
+    "image": "/react.svg"
+  },
+  {
+    "id": 6,
+    "image": "/symfony.svg"
+  },
+  {
+    "id": 7,
+    "image": "/php.svg"
+  },
+  {
+    "id": 8,
+    "image": "/sql.svg"
   }
+
 ]

@@ -59,9 +59,8 @@ const Introduction = () => {
             </div>
 
             <div className=" flex justify-end flex-col p-5">
-              <p className="flex justify-end px-5 lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">Lucas Marchand-Poret, 25 ans</p>
-              <p className="flex justify-end px-5 lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">Élève d&apos;OnlineFormaPro</p>
-              <p className="flex justify-end px-5 lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">Développeur web et web mobile</p>
+              <p className="flex justify-end px-5 lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">Lucas Marchand-Poret, 27 ans</p>
+              <p className="flex justify-end px-5 lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">Développeur Junior web et web mobile</p>
             </div>
           </div>
         </div>

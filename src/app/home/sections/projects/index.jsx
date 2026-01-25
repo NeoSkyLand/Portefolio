@@ -12,7 +12,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-center py-4">
               <div className="flex justify-center">
-                <div className="grid grid-cols-2 lg:grid-cols-4 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
+                <div className="grid grid-cols-2 lg:grid-cols-3 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
                   {data.map((project) => {
                     return (
                       <div key={project.id}>
