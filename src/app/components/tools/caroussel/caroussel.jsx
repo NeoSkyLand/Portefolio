@@ -11,7 +11,7 @@ const Caroussel = () => {
           <Image src="/white-logo(1).svg" width={100} height={100} alt="Deep404" />
         </div>
         <div>
-          <img src="/FND-white-logo.svg" width="sm" height="sm" alt="Flash Not Dead"/>
+          <Image src="/FND-white-logo.svg" width="sm" height="sm" alt="Flash Not Dead"/>
         </div>
       </Carousel>
     </section>
