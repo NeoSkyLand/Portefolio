@@ -35,7 +35,7 @@ const Introduction = () => {
             </div>
             <div className="rounded-full justify-center flex py-4">
               <Image
-                src="/PhotoMoi.svg"
+                src="/PhotoMoi.jpg"
                 width={100}
                 height={100}
                 alt="moi"
