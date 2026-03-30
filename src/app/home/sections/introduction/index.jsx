@@ -44,7 +44,7 @@ const Introduction = () => {
             </div>
             <div className="flex justify-center py-4 px-4 ">
               <p className="flex justify-center lg:px-8 font-handjetRegular text-[#611a8d] dark:text-[#ebc5f5] text-2xl">
-                « YOLO Dès l&apos;enfance, je me suis pris de passion pour les jeux
+                « YOLO YOLO Dès l&apos;enfance, je me suis pris de passion pour les jeux
                 vidéos ainsi que l&apos;informatique de façon globale.
                 C&apos;est ainsi, une pièce en amenant une autre, que j&apos;ai
                 pu découvrir les différents composants d&apos;un
