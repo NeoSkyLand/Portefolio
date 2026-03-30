@@ -25,7 +25,7 @@ const HeaderDesktop = () => {
     <header className="hidden lg:flex ">
       <nav className="dark:bg-black bg-[#6faaf0] h-screen fixed" style={{ width: menu }}>
         <div className="flex justify-center py-4 px-2">
-          <Image src="/PhotoMoi.jpg" width={100} height={100} alt="moi" className="rounded-full"/>
+          <Image src="/PhotoMoi.svg" width={100} height={100} alt="moi" className="rounded-full"/>
         </div>
         <div className="flex items-center justify-center py-2 dark:text-[#d011d8] text-[#111144]">
           {showButton === true ? (
