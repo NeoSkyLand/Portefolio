@@ -30,6 +30,17 @@
   {
     "id": 8,
     "image": "/sql.svg"
+  },
+  {
+    "id": 9,
+    "image": "/webador.svg"
+  },  
+  {
+    "id": 10,
+    "image": "/flutter.svg"
+  },
+  {
+    "id": 11,
+    "image": "/dart.svg"
   }
-
 ]
